@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Memory Game!</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Memory Game!</h1>
+
+    <div class="game-info-container">
+      <div class="game-info">
+        Flips : <span id="flips">0</span>
+      </div>
+      <div class ="game-info">
+        Best Score : <span id="best-score">&mdash;</span>
+      </div>
+    </div>
+
+    <div id='startScreen' class="start visible">
+      Click to Start
+    </div>
+    <div id='game-over-text' class="start ">
+      Good Game
+      <span class="overlay-text-small">Restart</span>
+    </div>
+    <div id="gameContainer">
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
